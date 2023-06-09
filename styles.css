@@ -9,41 +9,32 @@
 body {
   background-color: var(--Light-gray);
   font-family: "Outfit", sans-serif;
-  width: 1440px;
-}
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
+
 .card {
-  width: 300px;
+  max-width: 250px;
   background-color: white;
   border-radius: 15px;
   padding: 15px;
+  
 }
-.card-image img {
-  height: 300px;
+.card img {
+  width: 250px;
+  height: auto;
   border-radius: 15px;
 }
 .card-content {
   text-align: center;
   /*margin: 10px 0 0 0;*/
   font-size: 15px;
-  padding: 20px;
 }
 .card-title {
   font-size: 18px;
 }
 .card-body {
   color: var(--Grayish-blue);
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  display: inline-block;
 }
